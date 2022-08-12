@@ -4,7 +4,7 @@
 function capturePage($url)
 {
     // My API key
-    $key = "AIzaSyCPRUqMIMEabgjz7M51K6SQlhiHDf6h_88";
+    $key = "YOUR_API_KEY";
     $request = "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url={$url}&key=" . $key;
     $getContent = file_get_contents($request);
 
